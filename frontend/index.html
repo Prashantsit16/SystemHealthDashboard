@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Health Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🖥️ System Health Dashboard</h1>
+            <p>Real-time Linux System Monitoring</p>
+        </header>
+
+        <div class="dashboard">
+            <!-- CPU Usage Card -->
+            <div class="stat-card" id="cpu-card">
+                <div class="card-header">
+                    <h3>⚡ CPU Usage</h3>
+                    <span class="last-updated">Just now</span>
+                </div>
+                <div class="card-body">
+                    <div class="stat-value" id="cpu-usage">0%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="cpu-progress"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Memory Usage Card -->
+            <div class="stat-card" id="memory-card">
+                <div class="card-header">
+                    <h3>💾 Memory Usage</h3>
+                    <span class="last-updated">Just now</span>
+                </div>
+                <div class="card-body">
+                    <div class="stat-value" id="memory-usage">0%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="memory-progress"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Disk Usage Card -->
+            <div class="stat-card" id="disk-card">
+                <div class="card-header">
+                    <h3>💽 Disk Usage</h3>
+                    <span class="last-updated">Just now</span>
+                </div>
+                <div class="card-body">
+                    <div class="stat-value" id="disk-usage">0%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="disk-progress"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Users & Processes Card -->
+            <div class="stat-card" id="users-card">
+                <div class="card-header">
+                    <h3>👥 Users & Processes</h3>
+                    <span class="last-updated">Just now</span>
+                </div>
+                <div class="card-body">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="label">Logged Users:</span>
+                            <span class="value" id="logged-users">0</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Running Processes:</span>
+                            <span class="value" id="running-processes">0</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Uptime:</span>
+                            <span class="value" id="system-uptime">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="darkModeToggle" class="btn-toggle">🌙 Dark Mode</button>
+            <button id="refreshBtn" class="btn-refresh">🔄 Refresh Now</button>
+        </div>
+
+        <footer>
+            <p>Last Updated: <span id="last-update-time">Never</span></p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/*.log
+*.log
+
+# System data
+system_stats.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
