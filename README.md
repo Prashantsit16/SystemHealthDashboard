@@ -1,6 +1,6 @@
 # System Health Dashboard
 
-A real-time Linux system monitoring dashboard that displays CPU, memory, disk, and user statistics.
+A real-time Linux system monitoring dashboard that displays CPU, memory, disk, and user statistics across servers, containers, and service . Built using modern web technologies and designed for observality , alerting and quick diagnostics. 
 
 ## Features
   Real-time system metrics monitoring
@@ -14,15 +14,14 @@ A real-time Linux system monitoring dashboard that displays CPU, memory, disk, a
   Node.js with Express (Backend)
   Bash scripting (Data collection)
   Linux system commands
-  Git & GitHub
-
+  Git & GitHubs
 ## Team Members
   Prashant Bajpai - Full-stack development & project setup
   Priti - Will work on frontend improvements
   Ashu Yadav - Will work on backend features  
   Shloka Patel - Will work on monitoring scripts
   Shrey Raj - Will work on testing
-## Prerequisites
+## Prerequisite
   WSL/Ubuntu with Node.js
   Git for version control
 
