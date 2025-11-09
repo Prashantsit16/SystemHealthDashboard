@@ -47,3 +47,6 @@ Dark/Light mode
 
 Automatic updates every 10 seconds
 
+<img width="1760" height="835" alt="Screenshot 2025-10-16 011214" src="https://github.com/user-attachments/assets/8824c834-33eb-4130-afd0-cc23d263a735" />
+
+
