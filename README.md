@@ -26,9 +26,9 @@ A real-time Linux system monitoring dashboard that displays CPU, memory, disk, a
   Git for version control
 
 ### 1. Install Node.js
-```bash
 sudo apt update
 sudo apt install nodejs npm -y
+
 How to Run:
 bash
 # Terminal 1:
@@ -46,3 +46,4 @@ Live system statistics
 Dark/Light mode
 
 Automatic updates every 10 seconds
+
